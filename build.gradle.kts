@@ -14,6 +14,7 @@ plugins {
     id("org.jetbrains.changelog") version "1.3.0"
     // Gradle Qodana Plugin
     id("org.jetbrains.qodana") version "0.1.12"
+    id("org.jetbrains.grammarkit") version "2021.1.3"
 }
 
 group = properties("pluginGroup")
@@ -23,6 +24,7 @@ version = properties("pluginVersion")
 repositories {
     mavenCentral()
 }
+
 
 // Configure Gradle IntelliJ Plugin - read more: https://github.com/JetBrains/gradle-intellij-plugin
 intellij {

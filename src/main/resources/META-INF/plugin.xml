@@ -9,6 +9,8 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.demiusacademius.hibernator.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.demiusacademius.hibernator.services.MyProjectService"/>
+        <fileType name="Hql" implementationClass="com.github.demiusacademius.hibernator.lang.HqlFileType"
+                  fieldName="INSTANCE" language="Hi Query Language" extensions="hql"/>
     </extensions>
 
     <applicationListeners>
